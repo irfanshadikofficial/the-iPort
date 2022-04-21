@@ -45,39 +45,6 @@ body{
 .nav_container #close-menu-btn{
     display: none;
 }
-@media screen and (max-width:1400px) {
-    .nav_menu{
-        right: -0.6%;
-    }
-}
-@media screen and (max-width:1200px) {
-    .nav_menu {
-        right: -2.4%;
-    }
-}
-@media screen and (max-width:992px) {
-    .nav_menu {
-        right: -4.9%;
-    }
-}
-@media screen and (max-width:768px) {
-    .nav_menu {
-        right: -9.4%;
-    }
-}
-@media screen and (max-width:576px) {
-    .nav_menu {
-        right: -15.7%;
-    }
-}
-@media screen and (max-width:360px) {
-    .nav_menu {
-        right: -31%;
-    }
-    .logo{
-        width: 92px;
-    }
-}
 /*Navbar End Here | Navbar End Here | Navbar End Here | Navbar End Here | Navbar End Here |*/
 /*PFP Start Here | PFP Start Here | PFP Start Here | PFP Start Here | PFP Start Here | */
 .pfp_container{
@@ -125,7 +92,7 @@ body{
     border-radius: 5px;
 }
 /*Footer Links End | Footer Links End | Footer Links End | Footer Links End | */
-/**//*Custom Scrollbar*/
+/**//*Custom Scrollbar | Custom Scrollbar  | Custom Scrollbar | Custom Scrollbar |*/
 ::-webkit-scrollbar {
     width: 7px;
 }
@@ -141,3 +108,50 @@ body{
 ::-webkit-scrollbar-thumb:hover {
     background: var(--primary);
 }
+/*Custom Scrollbar | Custom Scrollbar  | Custom Scrollbar | Custom Scrollbar |*/
+/*Responsiveness | Responsiveness | Responsiveness | Responsiveness | Responsiveness */
+@media screen and (max-width:1400px) {
+    .nav_menu {
+        right: -0.6%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .nav_menu {
+        right: -2.4%;
+    }
+}
+@media screen and (max-width:992px) {
+    .nav_menu {
+        right: -4.9%;
+    }
+}
+@media screen and (max-width:768px) {
+    .nav_menu {
+        right: -9.4%;
+    }
+}
+@media screen and (max-width:576px) {
+    .nav_menu {
+        right: -15.7%;
+    }
+}
+@media screen and (max-width:360px) {
+    .nav_menu {
+        right: -31%;
+    }
+
+    .logo {
+        width: 92px;
+    }
+    .pfp{
+        width: 250px;
+    }
+    .text_container{
+        font-size: 22px;
+    }
+    .fl_links{
+        font-size: 22px;
+        flex-direction: column;
+    }
+}
+/*Responsiveness | Responsiveness | Responsiveness | Responsiveness | Responsiveness */
