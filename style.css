@@ -115,14 +115,33 @@ body{
         right: -0.6%;
     }
 }
+@media screen and (max-width:1280px) {
+    .nav_menu {
+        right: -1.6%;
+    }
+}
 @media screen and (max-width:1200px) {
     .nav_menu {
         right: -2.4%;
     }
 }
+@media screen and (max-width:1024px) {
+    .nav_menu {
+        right: -4.5%;
+    }
+}
 @media screen and (max-width:992px) {
     .nav_menu {
         right: -4.9%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .nav_menu {
+    right: -8.1%;
+}}
+@media screen and (max-width: 912px) {
+    .nav_menu {
+        right: -6.3%;
     }
 }
 @media screen and (max-width:768px) {
@@ -133,6 +152,50 @@ body{
 @media screen and (max-width:576px) {
     .nav_menu {
         right: -15.7%;
+    }
+    .fl_links {
+        font-size: 30px;
+        flex-direction: column;
+    }
+}
+/*Iphone XR*/
+@media screen and (max-width:414px) {
+    .nav_menu{
+        right: -25.7%;
+    }
+    .pfp{
+        width: 300px;
+    }
+    .text_container{
+        font-size: 28px;
+    }
+    .fl_links{
+        font-size: 25px;
+    }
+}
+/*pixel 5*/
+@media screen and (max-width:393px) {
+    .nav_menu {
+        right: -27.8%;
+    }
+/*Iphone 12pro*/
+@media screen and (max-width:390px) {
+    .nav_menu {
+        right: -28%;
+    }
+/*Iphone SE*/
+@media screen and (max-width:375px) {
+    .nav_menu {
+        right: -29.7%;
+    }
+    .pfp{
+        width: 271px;
+    }
+    .text_container{
+        font-size: 25px;
+    }
+    .fl_links{
+        font-size: 23px;
     }
 }
 @media screen and (max-width:360px) {
@@ -149,7 +212,7 @@ body{
     .text_container{
         font-size: 22px;
     }
-    .fl_links{
+    .fl_links {
         font-size: 22px;
         flex-direction: column;
     }
