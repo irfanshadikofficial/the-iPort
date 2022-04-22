@@ -87,9 +87,9 @@ body{
     padding: 0px;
 }
 .fl_links a:hover{
-    border-bottom: #ff6347 solid 5px;
-    border-top: #ff6347 solid 5px;
+    border-bottom: #ff6347 ridge 5px;
     border-radius: 5px;
+    transform: translate(120px, 50%);
 }
 /*Footer Links End | Footer Links End | Footer Links End | Footer Links End | */
 /**//*Custom Scrollbar | Custom Scrollbar  | Custom Scrollbar | Custom Scrollbar |*/
@@ -216,5 +216,12 @@ body{
         font-size: 22px;
         flex-direction: column;
     }
+    .fl_links a:hover{
+        border-bottom: #ff6347 solid 2px;
+        border-radius: 0px;
+    }
+    .lic:hover{
+        border-bottom: #ff6347 solid 2px;
+        border-radius: 0px;
+    }
 }
-/*Responsiveness | Responsiveness | Responsiveness | Responsiveness | Responsiveness */
