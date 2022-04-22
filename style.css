@@ -230,11 +230,6 @@ body{
         flex-direction: column;
     }
     .fl_links a:hover{
-        border-bottom: #ff6347 solid 2px;
-        border-radius: 0px;
-    }
-    .lic:hover{
-        border-bottom: #ff6347 solid 2px;
-        border-radius: 0px;
+        transform: translateX(10px);
     }
 }
