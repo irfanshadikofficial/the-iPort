@@ -170,6 +170,9 @@ body{
         font-size: 30px;
         flex-direction: column;
     }
+    .fl_links a:hover {
+        transform: translateX(10px);
+    }
 }
 /*Iphone XR*/
 @media screen and (max-width:414px) {
@@ -228,8 +231,5 @@ body{
     .fl_links {
         font-size: 22px;
         flex-direction: column;
-    }
-    .fl_links a:hover{
-        transform: translateX(10px);
     }
 }
