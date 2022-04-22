@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+body{
+    background-color: #1e1e1e;
+}
+.logo{
+    width: 100px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav_menu li{
+    list-style: none;
+}
+.nav_menu{
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+    display: flex;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 200px;
+    right: 7.5px;
+}
+.nav_menu{
+    display: none;
+}
+.nav_menu a{
+    text-decoration: none;
+    color: white;
+}
+.nav_menu a:hover{
+    color: #ff6347;
+    border-bottom: #ff6347 solid 2px;
+    border-top: #ff6347 solid 2px;
+}
+.nav_menu li{
+    margin-left: 15px;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_container button{
+   border: none;
+   background-color: transparent;
+   color: white;
+   font-size: 40px;
+   cursor: pointer;
+}
+.nav_container #close-menu-btn{
+    display: none;
+}
+/*Navbar End Here | Navbar End Here | Navbar End Here | Navbar End Here | Navbar End Here |*/
+/*PFP Start Here | PFP Start Here | PFP Start Here | PFP Start Here | PFP Start Here | */
+.pfp_container{
+    text-align: center;
+}
+.pfp{
+    width: 348px;
+    border-radius: 50%;
+    border: #2c2c2c solid 5px;
+}
+/*PFP End Here | PFP End Here | PFP End Here | PFP End Here | PFP End Here | PFP End Here |*/
+/*Text Area Start | Text Area Start | Text Area Start | Text Area Start | Text Area Start |*/
+.text_container{
+    color: #707070;
+    font-family: 'Patua One', cursive;
+    font-size: 33px;
+}
+.lic, .licc{
+    color: #ff6347;
+}
+.lic:hover{
+    display: inline-block;
+    /*reflect text -*/
+    border-radius: 0px;
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+/*Text Area End | Text Area End | Text Area End | Text Area End | Text Area End | */
+/*Footer Links Start | Footer Links Start | Footer Links Start | Footer Links Start | */
+.fl_links a{
+    color: #ff6347;
+    text-decoration: none;
+}
+.fl_links li{
+    list-style: none;
+    margin-right: 15px;
+}
+.fl_links{
+    font-family: 'Patua One', cursive;
+    font-size: 28px;
+    display: flex;
+    padding: 0px;
+}
+.fl_links a:hover{
+    display: inline-block;
+    border-bottom: #ff6347 solid 3px;
+    border-radius: 0px;
+    transform: translateY(-10px);
+}
+/*Footer Links End | Footer Links End | Footer Links End | Footer Links End | */
+/**//*Custom Scrollbar | Custom Scrollbar  | Custom Scrollbar | Custom Scrollbar |*/
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--black);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+/*Custom Scrollbar | Custom Scrollbar  | Custom Scrollbar | Custom Scrollbar |*/
+/*Responsiveness | Responsiveness | Responsiveness | Responsiveness | Responsiveness */
+@media screen and (max-width:1400px) {
+    .nav_menu {
+        right: -0.6%;
+    }
+}
+@media screen and (max-width:1280px) {
+    .nav_menu {
+        right: -1.6%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .nav_menu {
+        right: -2.4%;
+    }
+}
+@media screen and (max-width:1024px) {
+    .nav_menu {
+        right: -4.5%;
+    }
+}
+@media screen and (max-width:992px) {
+    .nav_menu {
+        right: -4.9%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .nav_menu {
+    right: -8.1%;}
+}
+@media screen and (max-width: 943px) {
+    .nav_menu {
+        right: -5.9%;
+    }
+}
+@media screen and (max-width: 912px) {
+    .nav_menu {
+        right: -6.3%;
+    }
+}
+@media screen and (max-width:768px) {
+    .nav_menu {
+        right: -9.4%;
+    }
+}
+@media screen and (max-width:576px) {
+    .nav_menu {
+        right: -15.7%;
+    }
+    .fl_links {
+        font-size: 30px;
+        flex-direction: column;
+    }
+    .fl_links a:hover {
+        transform: translateX(10px);
+    }
+}
+/*Iphone XR*/
+@media screen and (max-width:414px) {
+    .nav_menu{
+        right: -25.7%;
+    }
+    .pfp{
+        width: 300px;
+    }
+    .text_container{
+        font-size: 28px;
+    }
+    .fl_links{
+        font-size: 25px;
+    }
+}
+/*pixel 5*/
+@media screen and (max-width:393px) {
+    .nav_menu {
+        right: -27.8%;
+    }
+/*Iphone 12pro*/
+@media screen and (max-width:390px) {
+    .nav_menu {
+        right: -28%;
+    }
+/*Iphone SE*/
+@media screen and (max-width:375px) {
+    .nav_menu {
+        right: -29.7%;
+    }
+    .pfp{
+        width: 271px;
+    }
+    .text_container{
+        font-size: 25px;
+    }
+    .fl_links{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width:360px) {
+    .nav_menu {
+        right: -31%;
+    }
+
+    .logo {
+        width: 92px;
+    }
+    .pfp{
+        width: 250px;
+    }
+    .text_container{
+        font-size: 22px;
+    }
+    .fl_links {
+        font-size: 22px;
+        flex-direction: column;
+    }
+}
