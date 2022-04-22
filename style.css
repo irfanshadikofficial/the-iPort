@@ -28,6 +28,11 @@ body{
     text-decoration: none;
     color: white;
 }
+.nav_menu a:hover{
+    color: #ff6347;
+    border-bottom: #ff6347 solid 2px;
+    border-top: #ff6347 solid 2px;
+}
 .nav_menu li{
     margin-left: 15px;
 }
@@ -66,8 +71,8 @@ body{
     color: #ff6347;
 }
 .lic:hover{
-    border-bottom: #ff6347 solid 5px;
-    border-radius: 5px;
+    border-bottom: #ff6347 solid 3px;
+    border-radius: 0px;
 }
 
 /*Text Area End | Text Area End | Text Area End | Text Area End | Text Area End | */
@@ -87,8 +92,8 @@ body{
     padding: 0px;
 }
 .fl_links a:hover{
-    border-bottom: #ff6347 ridge 5px;
-    border-radius: 5px;
+    border-bottom: #ff6347 solid 3px;
+    border-radius: 0px;
     transform: translate(120px, 50%);
 }
 /*Footer Links End | Footer Links End | Footer Links End | Footer Links End | */
